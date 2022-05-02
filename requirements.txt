@@ -21,3 +21,4 @@ Werkzeug
 WTForms
 gunicorn == 20.1.0
 email_validator
+psycopg2-binary == 2.9.3
