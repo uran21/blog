@@ -10,11 +10,6 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 from flask_gravatar import Gravatar
 from functools import wraps
 import os
-import re
-
-uri = os.getenv("DATABASE_URL")  # or other relevant config var
-if uri.startswith("postgres://"):
-    uri = uri.replace("postgres://", "postgresql://", 1)
 
 
 
